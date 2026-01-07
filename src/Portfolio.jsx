@@ -74,10 +74,9 @@ const Portfolio = () => {
 const handleSubmit = (e) => {
   e.preventDefault();
 
-  // EmailJS Service ID, Template ID, සහ Public Key මෙතනට දාන්න
-  const serviceId = 'service_a42u2oi';
-  const templateId = 'template_g8b85on';
-  const publicKey = 'F3xYHoO8AW9tr55px';
+  const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+  const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+  const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
   // Template එකට යන දත්ත
   const templateParams = {
