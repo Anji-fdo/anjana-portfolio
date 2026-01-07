@@ -106,7 +106,8 @@ const handleSubmit = (e) => {
     { name: 'MongoDB', icon: Database, color: 'text-emerald-400', bgColor: 'bg-emerald-400/10' },
     { name: 'Tailwind CSS', icon: Box, color: 'text-cyan-400', bgColor: 'bg-cyan-400/10' },
     { name: 'Git', icon: GitBranch, color: 'text-orange-400', bgColor: 'bg-orange-400/10' },
-    { name: 'REST APIs', icon: Server, color: 'text-purple-400', bgColor: 'bg-purple-400/10' }
+    { name: 'REST APIs', icon: Server, color: 'text-purple-400', bgColor: 'bg-purple-400/10' },
+    { name: 'WordPress', icon: Box, color: 'text-blue-500', bgColor: 'bg-blue-500/10' }
   ];
 
   const techColors = {
