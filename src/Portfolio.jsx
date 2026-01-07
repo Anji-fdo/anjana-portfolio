@@ -246,11 +246,7 @@ const handleSubmit = (e) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
-              <img 
-                  src="/Anjana.png"
-                  alt="Anjana Fernando" 
-                  className="w-full h-full object-cover"
-                />
+              AF
             </div>
             
             <div className="hidden md:flex space-x-8">
