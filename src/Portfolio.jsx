@@ -13,7 +13,7 @@ const Portfolio = () => {
     message: ''
   });
   const [formStatus, setFormStatus] = useState('');
-  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSubmitting] = useState(false);
   const [visibleSections, setVisibleSections] = useState(new Set());
 
   useEffect(() => {
