@@ -161,8 +161,28 @@ const handleSubmit = (e) => {
       link: 'https://mern-blog-gl76.onrender.com/',
       github: 'https://github.com/Anji-fdo/mern-blog',
       role: 'Full-stack Developer'
+    },
+    {
+      title: "Avion Farm Website",
+      description: "A comprehensive and responsive web platform developed for the agricultural sector, focusing on modern UI/UX principles. Built from scratch to ensure optimal performance and cross-browser compatibility.",
+      tech: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+      highlights: ['Modern UI/UX', 'Performance Optimization', 'Cross-browser Compatibility'],
+      link: "https://avionfarm.com/",
+      github: "#", // මෙහි GitHub link එක ඇත්නම් දාන්න
+      role: "Web Developer",
+      category: "Web Development"
+    },
+    {
+      title: "Lanka Holiday Journey",
+      description: "A professional travel and tourism website built using WordPress. Features include custom theme adjustments, SEO optimization, and an intuitive user interface to streamline the vacation planning process.",
+      tech: ["WordPress", "Elementor", "PHP", "SEO"],
+      highlights: ['Custom Theme Adjustments', 'SEO Optimization', 'User Interface Design'],
+      link: "https://lankaholidayjourney.com/",
+      github: "#",
+      role: "WordPress Developer",
+      category: "WordPress"
     }
-  ];
+];
 
   const experiences = [
     {
