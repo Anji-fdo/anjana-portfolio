@@ -119,7 +119,14 @@ const handleSubmit = (e) => {
     'JWT': { text: 'text-purple-400', bg: 'bg-purple-500/20', border: 'border-purple-400/50' },
     'Redux': { text: 'text-violet-400', bg: 'bg-violet-500/20', border: 'border-violet-400/50' },
     'Firebase': { text: 'text-yellow-400', bg: 'bg-yellow-500/20', border: 'border-yellow-400/50' },
-    'Quill': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' }
+    'Quill': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
+    'HTML5': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
+    'CSS3': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
+    'JavaScript': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
+    'WordPress': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
+    'Elementor': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
+    'PHP': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
+    'SEO': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' }
   };
 
   const projects = [
@@ -138,24 +145,20 @@ const handleSubmit = (e) => {
     {
       title: 'Avion Farm Website',
       description: 'A comprehensive and responsive web platform developed for the agricultural sector, focusing on modern UI/UX principles. Built from scratch to ensure optimal performance and cross-browser compatibility.',
-      tech: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
+      tech: ['HTML5', 'CSS3', 'JavaScript'],
       highlights: ['Modern UI/UX', 'Performance Optimization', 'Cross-browser Compatibility'],
       link: 'https://avionfarm.com/',
-      github: '#',
-      role: 'Web Developer',
-      featured: true
+      github: 'https://github.com/Savanrajakaruna/Veritas-International-Statistics-Website',
+      role: 'Web Developer'
     },
     {
-      title: 'Veritas International Campus LMS',
-      description: 'A comprehensive Learning Management System developed for Veritas International Campus, enabling course management, student enrollment, assignment tracking, and interactive learning experiences.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS'],
-      highlights: ['Course Management', 'Student Dashboard', 'Assignment Tracking'],
-      link: 'https://veritas-campus-lms-ywm1.vercel.app/',
+      title: 'Lanka Holiday Journey',
+      description: 'A professional travel and tourism website built using WordPress. Features include custom theme adjustments, SEO optimization, and an intuitive user interface to streamline the vacation planning process.',
+      tech: ['WordPress', 'Elementor', 'PHP', 'SEO'],
+      highlights: ['Custom Theme Adjustments', 'SEO Optimization', 'User Interface Design'],
+      link: 'https://lankaholidayjourney.com/',
       github: 'https://github.com/Savanrajakaruna/Veritas-International-Statistics-Website',
-      period: 'May 2025 - Aug 2025',
-      company: 'Gamage Recruiters',
-      role: 'Lead Developer',
-      featured: true
+      role: 'WordPress Developer'
     },
     {
       title: 'Job Portal',
