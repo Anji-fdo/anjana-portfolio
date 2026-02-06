@@ -136,6 +136,28 @@ const handleSubmit = (e) => {
       featured: true
     },
     {
+      title: 'Avion Farm Website',
+      description: 'A comprehensive and responsive web platform developed for the agricultural sector, focusing on modern UI/UX principles. Built from scratch to ensure optimal performance and cross-browser compatibility.',
+      tech: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
+      highlights: ['Modern UI/UX', 'Performance Optimization', 'Cross-browser Compatibility'],
+      link: 'https://avionfarm.com/',
+      github: '#',
+      role: 'Web Developer',
+      featured: true
+    },
+    {
+      title: 'Veritas International Campus LMS',
+      description: 'A comprehensive Learning Management System developed for Veritas International Campus, enabling course management, student enrollment, assignment tracking, and interactive learning experiences.',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS'],
+      highlights: ['Course Management', 'Student Dashboard', 'Assignment Tracking'],
+      link: 'https://veritas-campus-lms-ywm1.vercel.app/',
+      github: 'https://github.com/Savanrajakaruna/Veritas-International-Statistics-Website',
+      period: 'May 2025 - Aug 2025',
+      company: 'Gamage Recruiters',
+      role: 'Lead Developer',
+      featured: true
+    },
+    {
       title: 'Job Portal',
       description: 'A comprehensive platform connecting job seekers with recruiters, featuring secure authentication, CRUD operations, and advanced filtering capabilities.',
       tech: ['React', 'Node.js', 'MongoDB', 'Express', 'JWT'],
@@ -161,26 +183,6 @@ const handleSubmit = (e) => {
       link: 'https://mern-blog-gl76.onrender.com/',
       github: 'https://github.com/Anji-fdo/mern-blog',
       role: 'Full-stack Developer'
-    },
-    {
-      title: "Avion Farm Website",
-      description: "A comprehensive and responsive web platform developed for the agricultural sector, focusing on modern UI/UX principles. Built from scratch to ensure optimal performance and cross-browser compatibility.",
-      tech: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-      highlights: ['Modern UI/UX', 'Performance Optimization', 'Cross-browser Compatibility'],
-      link: "https://avionfarm.com/",
-      github: "#", // මෙහි GitHub link එක ඇත්නම් දාන්න
-      role: "Web Developer",
-      category: "Web Development"
-    },
-    {
-      title: "Lanka Holiday Journey",
-      description: "A professional travel and tourism website built using WordPress. Features include custom theme adjustments, SEO optimization, and an intuitive user interface to streamline the vacation planning process.",
-      tech: ["WordPress", "Elementor", "PHP", "SEO"],
-      highlights: ['Custom Theme Adjustments', 'SEO Optimization', 'User Interface Design'],
-      link: "https://lankaholidayjourney.com/",
-      github: "#",
-      role: "WordPress Developer",
-      category: "WordPress"
     }
   ];
 
