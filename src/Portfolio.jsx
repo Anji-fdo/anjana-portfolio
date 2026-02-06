@@ -120,13 +120,13 @@ const handleSubmit = (e) => {
     'Redux': { text: 'text-violet-400', bg: 'bg-violet-500/20', border: 'border-violet-400/50' },
     'Firebase': { text: 'text-yellow-400', bg: 'bg-yellow-500/20', border: 'border-yellow-400/50' },
     'Quill': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
-    'HTML5': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
-    'CSS3': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
-    'JavaScript': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
-    'WordPress': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
-    'Elementor': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
-    'PHP': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' },
-    'SEO': { text: 'text-pink-400', bg: 'bg-pink-500/20', border: 'border-pink-400/50' }
+    'HTML5': { text: 'text-orange-500', bg: 'bg-orange-500/20', border: 'border-orange-500/50' },
+    'CSS3': { text: 'text-blue-500', bg: 'bg-blue-500/20', border: 'border-blue-500/50' },
+    'JavaScript': { text: 'text-yellow-400', bg: 'bg-yellow-500/20', border: 'border-yellow-400/50' },
+    'WordPress': { text: 'text-sky-500', bg: 'bg-sky-500/20', border: 'border-sky-500/50' },
+    'Elementor': { text: 'text-pink-500', bg: 'bg-pink-500/20', border: 'border-pink-500/50' },
+    'PHP': { text: 'text-indigo-400', bg: 'bg-indigo-500/20', border: 'border-indigo-400/50' },
+    'SEO': { text: 'text-emerald-500', bg: 'bg-emerald-500/20', border: 'border-emerald-500/50' }
   };
 
   const projects = [
@@ -148,7 +148,7 @@ const handleSubmit = (e) => {
       tech: ['HTML5', 'CSS3', 'JavaScript'],
       highlights: ['Modern UI/UX', 'Performance Optimization', 'Cross-browser Compatibility'],
       link: 'https://avionfarm.com/',
-      github: 'https://github.com/Savanrajakaruna/Veritas-International-Statistics-Website',
+      github: '#',
       role: 'Web Developer'
     },
     {
@@ -157,7 +157,7 @@ const handleSubmit = (e) => {
       tech: ['WordPress', 'Elementor', 'PHP', 'SEO'],
       highlights: ['Custom Theme Adjustments', 'SEO Optimization', 'User Interface Design'],
       link: 'https://lankaholidayjourney.com/',
-      github: 'https://github.com/Savanrajakaruna/Veritas-International-Statistics-Website',
+      github: '#',
       role: 'WordPress Developer'
     },
     {
