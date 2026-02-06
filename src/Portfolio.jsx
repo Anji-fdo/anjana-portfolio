@@ -182,7 +182,7 @@ const handleSubmit = (e) => {
       role: "WordPress Developer",
       category: "WordPress"
     }
-];
+  ];
 
   const experiences = [
     {
