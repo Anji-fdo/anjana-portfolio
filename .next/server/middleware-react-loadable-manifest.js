@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"components\\\\Hero.tsx -> ./HolographicAvatar\":{\"id\":\"components\\\\Hero.tsx -> ./HolographicAvatar\",\"files\":[\"static/chunks/_app-pages-browser_components_HolographicAvatar_tsx.js\"]}}"
